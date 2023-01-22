@@ -20,7 +20,7 @@ ul {
   text-decoration: none;
   cursor: pointer;
 }
-.sub-1 {
+.sub {
   color: #212121;
   font-family: 'Roboto';
   font-style: normal;
@@ -30,7 +30,7 @@ ul {
   letter-spacing: 0.03em;
   text-align: left;
 }
-.p-1 {
+.parf {
   color: #757575;
   font-family: 'Roboto';
   font-style: normal;
@@ -48,48 +48,6 @@ ul {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-.p-2 {
-  color: #757575;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-}
-.sub-3 {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-.p-3 {
-  color: #757575;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0.03em;
-}
-.sub-4 {
-  color: #212121;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  text-transform: uppercase;
-}
-.p-4 {
-  color: #757575;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
 }
 .tips {
   color: #212121;
@@ -132,15 +90,6 @@ ul {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.mail {
-  color: #2196f3;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-}
 .contac {
   color: #757575;
   font-family: 'Roboto';
@@ -175,30 +124,11 @@ ul {
   text-align: left;
   letter-spacing: 0.03em;
 }
-.emplo-1 {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: left;
-  letter-spacing: 0.03em;
-}
 .eqp-1 {
   color: #757575;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: left;
-  letter-spacing: 0.03em;
-}
-.emplo-2 {
-  color: #212121;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   text-align: left;
@@ -214,31 +144,11 @@ ul {
   text-align: left;
   letter-spacing: 0.03em;
 }
-.emplo-3 {
-  color: #212121;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: left;
-  letter-spacing: 0.03em;
-}
 .eqp-3 {
   color: #757575;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: left;
-  letter-spacing: 0.03em;
-}
-.emplo-4 {
-  color: #212121;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   text-align: left;
@@ -266,30 +176,6 @@ ul {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-}
-.adress-t {
-  color: #ffffff;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-}
-.adress-m {
-  color: #ffffff;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-}
-.adress-c {
-  color: #ffffff;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
 }
 /* Portafolio */
 .Studio {

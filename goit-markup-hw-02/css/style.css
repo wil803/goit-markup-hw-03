@@ -71,6 +71,7 @@ ul {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-ptf {
   color: #212121;
@@ -80,6 +81,7 @@ ul {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-contac {
   color: #212121;
@@ -89,6 +91,7 @@ ul {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .contac {
   color: #757575;
@@ -98,6 +101,7 @@ ul {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .service:focus,
 .service:hover {
@@ -168,15 +172,6 @@ ul {
 .adress {
   background-color: #2f303a;
 }
-.adress-w {
-  font-family: 'Raleway', 'Arial';
-  color: #2196f3;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-}
 /* Portafolio */
 .Studio {
   color: #212121;
@@ -186,6 +181,7 @@ ul {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .briefcase {
   color: #2196f3;
@@ -195,6 +191,7 @@ ul {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .description {
   color: #212121;

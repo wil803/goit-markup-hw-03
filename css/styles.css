@@ -1,6 +1,6 @@
 /* index */
 body {
-  font-family: 'Roboto', 'Arial';
+  font-family: 'Roboto',"Arial",sans-serif;
 }
 ul {
   list-style-type: none;
@@ -12,17 +12,15 @@ ul {
 }
 .site-w {
   color: #2196f3;
-  font-family: 'Raleway';
+  font-family: "Raleway","Arial",sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
-  cursor: pointer;
 }
 .sub {
   color: #212121;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -32,16 +30,12 @@ ul {
 }
 .parf {
   color: #757575;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
 }
 .sub-2 {
   color: #757575;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -51,7 +45,6 @@ ul {
 }
 .tips {
   color: #212121;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -61,11 +54,10 @@ ul {
 }
 .header {
   color: #2196f3;
-  font-family: 'Raleway', 'Arial';
+  font-family: 'Raleway',"Arial",sans-serif;
 }
 .site-studio {
   color: #2196f3;
-  font-family: 'Roboto', 'Arial';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -75,7 +67,6 @@ ul {
 }
 .site-ptf {
   color: #212121;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -85,7 +76,6 @@ ul {
 }
 .site-contac {
   color: #212121;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -93,26 +83,37 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.contac {
+.contac-u {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.contac-i {
+  color: #2196f3;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.contac:hover {
   color: #757575;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
 .service:focus,
-.service:hover {
+.service {
   background-color: #2196f3;
   color: #ffffff;
   font-family: 'Roboto', 'Arial';
   border-color: #2196f3;
+  cursor: pointer;
 }
 .bisnes {
   color: #ffffff;
-  font-family: 'roboto', 'Arial';
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -120,51 +121,10 @@ ul {
 }
 .tips-2 {
   color: #212121;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
-  text-align: left;
-  letter-spacing: 0.03em;
-}
-.eqp-1 {
-  color: #757575;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: left;
-  letter-spacing: 0.03em;
-}
-.eqp-2 {
-  color: #757575;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: left;
-  letter-spacing: 0.03em;
-}
-.eqp-3 {
-  color: #757575;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: left;
-  letter-spacing: 0.03em;
-}
-.eqp-4 {
-  color: #757575;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
   text-align: left;
   letter-spacing: 0.03em;
 }
@@ -175,7 +135,6 @@ ul {
 /* Portafolio */
 .Studio {
   color: #212121;
-  font-family: 'Roboto', 'Arial';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -185,7 +144,6 @@ ul {
 }
 .briefcase {
   color: #2196f3;
-  font-family: 'Roboto', 'Arial';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -195,7 +153,6 @@ ul {
 }
 .description {
   color: #212121;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -204,7 +161,6 @@ ul {
 }
 .text {
   color: #757575;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -212,15 +168,15 @@ ul {
   letter-spacing: 0.03em;
 }
 .seccion-buton-t:focus,
-.seccion-buton-t:hover {
+.seccion-buton-t {
   background-color: #2196f3;
   color:#ffffff;
-  font-family: 'Roboto', 'Arial';
   border-color: #2196f3;
+  cursor: pointer;
 }
 .seccion-buton {
   color: #212121;
-  font-family: 'Roboto';
   font-style: normal;
   text-align: center;
+  cursor: pointer;
 }

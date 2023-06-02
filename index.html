@@ -4,106 +4,70 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href=".stlyles/stlyles.css" />
-    <title>Document</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;500;700;900&family=Roboto:wght@100;300;400;700;900&display=swap"
     />
     <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;500;700&display=swap"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
-      integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
-      rel="stylesheet"
-    />
+    <title>WebStudio</title>
   </head>
   <body>
-    <div class="container-cont">
-      <header>
-        <div class="cont">
-          <nav>
-            <p>
-              <a
-                class="site-w"
-                href="#"
-                target="_blank"
-                rel="noopener noreeferrer"
-                >Webstudio</a
-              >
-            </p>
-            <ul>
-              <li>
-                <a
-                  class="site-studio"
-                  href="./index.html"
-                  target="_blank"
-                  rel="noopener noreeferrer"
-                >
-                  Estudio
-                </a>
-              </li>
-              <li>
-                <a
-                  class="site-ptf"
-                  href="./portafolio.html"
-                  target="_blank"
-                  rel="noopener noreeferrer"
-                >
-                  Portafolio</a
-                >
-              </li>
-
-              <li>
-                <a
-                  class="site-contac"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreeferrrer"
-                >
-                  contacto</a
-                >
-              </li>
-            </ul>
-          </nav>
-
-          <a class="contac-i" href="#">info@devstudio.com</a>
-          <a class="contac" href="#">+52 55 5529 6000</a>
+    <header class="cont-header">
+      <div class="container">
+        <h1 class="cont-logo">
+          <a href="#">Webstudio</a>
+        </h1>
+        <nav class="cont-nav">
+          <ul class="cont-navbar">
+            <li><a href="./index.html" class="active">Estudio</a></li>
+            <li><a href="./portafolio.html">Portafolio</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+        <div class="cont-top">
+          <ul class="cont-headercontactos">
+            <li>
+              <a href="sobre:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li><a href="tel:+525555296000">+52 55 5529 6000</a></li>
+          </ul>
         </div>
-      </header>
-    </div>
-    <main>
-      <div class="container-encabezado">
-        <section class="encabezado">
-            <h1 class="encabezado-s">Soluciones eficaces para su negocio</h1>
-            <button class="service" type="button">
-              Solicite nuestro servivio
-            </button>
-        </section>
       </div>
+    </header>
+    <main>
+      <section class="encabezado">
+        <div class="container">
+          <h2>
+            SOLUCIONES EFICACES PARA<br />
+            SU NEGOCIO
+          </h2>
+          <button type="button" class="encabezado-butom">
+            Solicite nuestro servivio
+          </button>
+        </div>
+      </section>
 
       <section class="informacion">
-        <div class="container-informacion">
-          <ul>
+        <div class="container">
+          <ul class="informacion-labels">
             <li>
-              <h3 class="sub">Atencion a los detalles</h3>
-              <p class="parf">
+              <h3>Atencion a los detalles</h3>
+              <p>
                 nos adentramos en todos los detalles y procesamos de su negacio,
                 para asi desarollar una solucion a su medida
               </p>
             </li>
             <li>
-              <h3 class="sub-2">Puntualidad</h3>
-              <p class="parf-2">
+              <h3>Puntualidad</h3>
+              <p>
                 con nosotros, usted puede sentirce seguro y protejido. un
                 pricipio importante de la empresa: respetar sus tiempos y sus
                 plazos acordados.
@@ -111,16 +75,16 @@
             </li>
 
             <li>
-              <h3 class="sub-3">Planificacion</h3>
-              <p class="parf-3">
+              <h3>Planificacion</h3>
+              <p>
                 usted podra observar y participar en cada fase del desarollo y
                 aplicacion de soluciones.
               </p>
             </li>
 
             <li>
-              <h3 class="sub-4">Tecnologia moderna</h3>
-              <p class="parf-4">
+              <h3>Tecnologia moderna</h3>
+              <p>
                 usamos herramientas imnovadoras para resolver las treas
                 asignadas. es hora de simplificar los procesos laborales.
               </p>
@@ -130,83 +94,93 @@
       </section>
 
       <section class="work">
-        <div class="container-work">
-          <h2 class="tips">A que nos dedicamos</h2>
-          <ul>
+        <div class="container">
+          <h2>A que nos dedicamos</h2>
+          <ul class="work-list">
             <li>
-              <img src="images/compiuter.png" alt="compiuter" width="370" />
+              <img
+                src="images/compiuter.png"
+                alt="compiuter"
+                width="373"
+                height="323"
+              />
             </li>
             <li>
-              <img src="images/cel.png" alt="cel" width="370" />
+              <img src="images/cel.png" alt="cel" width="373" height="323" />
             </li>
             <li>
-              <img src="images/tab.png" alt="tab" width="370" />
+              <img src="images/tab.png" alt="tab" width="373" height="323" />
             </li>
           </ul>
         </div>
       </section>
-      <div class="container-equipment">
-        <section class="equipment">
-          <h2 class="tips-2">Nuestro equipo</h2>
-          <ul>
+
+      <section class="equipment">
+        <div class="container">
+          <h2>Nuestro equipo</h2>
+          <ul class="equipment-cards">
             <li>
-              <img src="images/men.jpg" alt="men" width="270" />
-              <h3 class="sub">Andres cubo</h3>
-              <p class="parf">diseñador de productos</p>
+              <img src="images/men.jpg" alt="men" width="270" height="260" />
+              <h3>Andres cubo</h3>
+              <p>diseñador de productos</p>
             </li>
 
             <li>
-              <img src="images/women.jpg" alt="women" width="270" />
-              <h3 class="sub">Carla palacios</h3>
-              <p class="parf">diseñadora frontend</p>
+              <img
+                src="images/women.jpg"
+                alt="women"
+                width="270"
+                height="260"
+              />
+              <h3>Carla palacios</h3>
+              <p>diseñadora frontend</p>
             </li>
 
             <li>
-              <img src="images/white.jpg" alt="white" width="270" />
-              <h3 class="sub">Mario dorado</h3>
-              <p class="parf">marketing</p>
+              <img
+                src="images/white.jpg"
+                alt="white"
+                width="270"
+                height="260"
+              />
+              <h3>Mario dorado</h3>
+              <p>marketing</p>
             </li>
             <li>
-              <img src="images/black.jpg" alt="black" width="270" />
-              <h3 class="sub">Pablo mijangos</h3>
-              <p class="parf">diseñador ui</p>
+              <img
+                src="images/black.jpg"
+                alt="black"
+                width="270"
+                height="260"
+              />
+              <h3>Pablo mijangos</h3>
+              <p>diseñador ui</p>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
 
     <footer>
-      <div class="container-adress">
-        <div class="adress">
-          <address>
-            <ul>
-              <a class="site-foot" href="webstudio">webstudio</a>
-              <li>
-                <a
-                  class="contac-u"
-                  href="https://goo.gl/maps/y8hDeLZmRgmK91QBA"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <title>
-                    Calz. Ticomán 500, Ciudad de México, CDMX, México
-                  </title>
-                  Calz. Ticomán 500, Ciudad de México, CDMX, México
-                </a>
-              </li>
-              <li>
-                <a class="contac-l" href="info@example.com">info@example.com</a>
-              </li>
-              <li>
-                <a class="contac-j" href="+52 55 5529 6000 "
-                  >+52 55 5529 6000</a
-                >
-              </li>
-            </ul>
-          </address>
+      <address class="footer-bar">
+        <div class="container">
+          <a href="#"><span class="footer-title">WebStudio</span></a>
+          <ul class="footer-adress">
+            <li class="footer-adress">
+              Calz. Ticomán 500, Ciudad de<br />
+              México, CDMX, México
+            </li>
+          </ul>
+          <ul class="footer-sobre-tel">
+            <li>
+              <a href="sobre:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li>
+              <a href="tel:+525555296000">+52 55 5529 6000</a>
+            </li>
+          </ul>
         </div>
-      </div>
+      </address>
     </footer>
   </body>
 </html>
